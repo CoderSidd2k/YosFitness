@@ -50,10 +50,10 @@ const Navbar = () => {
               <a href="/" className="block text-gray-700 hover:text-gray-900 py-2">
                 Home
               </a>
-              <a href="/about" className="block text-gray-700 hover:text-gray-900 py-2">
+              <a href="#about" className="block text-gray-700 hover:text-gray-900 py-2">
                 About
               </a>
-              <a href="/services" className="block text-gray-700 hover:text-gray-900 py-2">
+              <a href="#services" className="block text-gray-700 hover:text-gray-900 py-2">
                 Services
               </a>
               <a href="https://forms.gle/2h9UW2D7gtan8EWo8" target="_blank" rel="noopener noreferrer">
