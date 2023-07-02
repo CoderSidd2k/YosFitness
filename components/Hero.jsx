@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="flex justify-around pt-10">
       <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-center">
         <img
-          className="h-auto max-h-120 lg:w-1/2 lg:h-auto lg:max-h-full animate-slide-left"
+          className="h-auto max-h-120 lg:w-1/2 lg:h-auto lg:max-h-full "
           src={Heroimg.src}
           alt=""
         />
