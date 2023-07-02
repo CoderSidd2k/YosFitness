@@ -3,7 +3,7 @@ import Logo from '../resources/Logo.png';
 
 const About = () => {
   return (
-    <div id="about" className="flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-center h-screen ">
+    <div id="about" className="flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-center h-screen pt-20">
       <div className="flex items-center">
       <img className="w-64 h-64 animate-spin-slow" src={Logo.src} alt="" />
       </div>
