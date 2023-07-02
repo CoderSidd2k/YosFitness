@@ -5,8 +5,9 @@ const Hero = () => {
   return (
     <div className="flex justify-around pt-10">
       <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-center">
-        <img className="lg:w-1/2 h-auto max-h-120 " src={Heroimg.src} alt="" />
-        <div className="lg:ml-8">
+      <img className="h-auto max-h-120 lg:w-1/2 lg:h-auto lg:max-h-full animate-slide-left" src={Heroimg.src} alt="" />
+
+        <div className="lg:ml-8 animate-slide-right">
         <h1 className="text-4xl font-bold text-white tracking-widest mt-4 italic animate-flicker-slow lg:text-5xl">Yos Fitness</h1>
 
         <p className="hidden md:block text-lg text-left mt-3 italic text-red-500 tracking-wide">"Nothing is Fun Unless you do"</p>
