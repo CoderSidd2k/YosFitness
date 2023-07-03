@@ -4,7 +4,7 @@ import Heroimg from "../resources/Heroimg.jpg"
 import whatsapp from "../resources/whatsapp.svg"
 const Hero = () => {
   return (
-    <div className="flex justify-around pt-10 ">
+    <div className="flex justify-around pt-10  ">
       <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-center">
         <img
           className="h-auto max-h-120 lg:w-1/2 lg:h-auto lg:max-h-full "

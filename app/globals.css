@@ -25,11 +25,12 @@ html {
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #000000	;
-  background-image: linear-gradient(315deg, #FF5733 20%, #000000 10%);
+ 
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   letter-spacing:3px;
+  
 }
 @keyframes slide-left {
   0% {
