@@ -12,7 +12,7 @@ const Hero = () => {
           alt=""
         />
 
-        <div className="lg:ml-2 animate-slide-right">
+        <div className="lg:ml-2 ">
         <h1 className="text-4xl font-extrabold text-white tracking-wider mt-4  lg:text-5xl">
           <span className="bg-white  bg-clip-text text-transparent animate-shine animate-pulse text-center" >
             FITNESS IS FUN
