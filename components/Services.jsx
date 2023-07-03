@@ -14,7 +14,7 @@ const Services = () => {
               </svg>
               <h3 className="text-xl font-bold mb-2 text-white">Fitness Classes</h3>
             </div>
-            <p className="text-white italic">Join our variety of fitness classes led by experienced trainers. From yoga to high-intensity workouts, we have something for everyone.</p>
+            <p className="text-white ">Join our variety of fitness classes led by our experienced trainers. From yoga to high-intensity workouts, we have something for everyone.</p>
           </div>
           <div className="bg-black bg-opacity-80 shadow-lg p-6 border border-white border-opacity-50">
             <div className="text-center">
@@ -24,7 +24,7 @@ const Services = () => {
               </svg>
               <h3 className="text-xl font-bold mb-2 text-white">Personal Training</h3>
             </div>
-            <p className="text-white italic">Get personalized training sessions with our certified personal trainers who will help you achieve your fitness goals effectively.</p>
+            <p className="text-white ">Get personalized training sessions with our certified personal trainers who will help you achieve your fitness goals effectively.</p>
           </div>
           <div className="bg-black bg-opacity-80 shadow-lg p-6 border border-white border-opacity-50">
             <div className="text-center">
@@ -32,9 +32,9 @@ const Services = () => {
                 <circle cx="12" cy="12" r="10" />
                 <path d="M3.6 13h8.4a1.6 1.6 0 110 3.2H7.6a3.2 3.2 0 010-6.4h2.4M10.4 6.8H6a1.6 1.6 0 110-3.2h2.4a3.2 3.2 0 010 6.4H6" />
               </svg>
-              <h3 className="text-xl font-bold mb-2 text-white">Nutrition Coaching</h3>
+              <h3 className="text-xl font-bold mb-2 text-white">Nutritional Guidence</h3>
             </div>
-            <p className="text-white italic">Receive personalized nutrition guidance from our expert coaches to optimize your diet and support your fitness journey.</p>
+            <p className="text-white ">Receive personalized nutritional guidance from our expert coaches to optimize your diet and support your fitness journey.</p>
           </div>
           <div className="bg-black bg-opacity-80 shadow-lg p-6 border border-white border-opacity-50">
             <div className="text-center">
@@ -44,7 +44,7 @@ const Services = () => {
               </svg>
               <h3 className="text-xl font-bold mb-2 text-white">Group Workouts</h3>
             </div>
-            <p className="text-white italic">Experience the energy and motivation of our group workout sessions, where you can train with like-minded individuals and stay motivated together.</p>
+            <p className="text-white ">Experience the energy and motivation of our group workout sessions, where you can train with like-minded individuals and stay motivated together.</p>
           </div>
           <div className="bg-black bg-opacity-80 shadow-lg p-6 border border-white border-opacity-50">
             <div className="text-center">
@@ -54,7 +54,7 @@ const Services = () => {
               </svg>
               <h3 className="text-xl font-bold mb-2 text-white">Sports Conditioning</h3>
             </div>
-            <p className="text-white italic">One can Enhance your athletic performance with our specialized sports conditioning programs, tailored to your sport of choice.</p>
+            <p className="text-white ">One can Enhance your athletic performance with our specialized sports conditioning programs, tailored to your sport of choice.</p>
           </div>
           <div className="bg-black bg-opacity-80 shadow-lg p-6 border border-white border-opacity-50">
             <div className="text-center">
@@ -62,9 +62,9 @@ const Services = () => {
                 <circle cx="12" cy="12" r="10" />
                 <path d="M12 6v4m0 0v4m0-4h4m-4 0H8" />
               </svg>
-              <h3 className="text-xl font-bold mb-2 text-white">Online Training</h3>
+              <h3 className="text-xl font-bold mb-2 text-white">Student Discounts</h3>
             </div>
-            <p className="text-white italic">One can Access our virtual training platform and get a professional guidance from our trainers in the comfort of your own home.</p>
+            <p className="text-white ">One can Avail Student Discounts with their school or university Identity cards which is exclusively for our youth with dedication.</p>
           </div>
         </div>
       </div>

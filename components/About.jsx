@@ -9,7 +9,7 @@ const About = () => {
       </div>
 
       <div className="w-full md:w-1/2 flex flex-col justify-center pl-8 text-white md:ml-8">
-        <h1 className="text-3xl font-bold mb-4 italic mt-3">What Sets Yos Fitness Apart?</h1>
+        <h1 className="text-3xl font-bold mb-4  mt-3">WHAT SETS <span className='text-red-500'>YOS FITNESS STUDIO</span> APART?</h1>
         <ul className="mb-8 list-disc ">
           <li className="flex items-center">
             <span className="inline-block mr-2 text-red-500 text-3xl">•</span>
@@ -21,7 +21,7 @@ const About = () => {
           </li>
           <li className="flex items-center">
             <span className="inline-block mr-2 text-red-500 text-3xl">•</span>
-            <span>Supportive Community</span>
+            <span>Supportive Environment</span>
           </li>
           <li className="flex items-center">
             <span className="inline-block mr-2 text-red-500 text-3xl">•</span>

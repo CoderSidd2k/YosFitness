@@ -1,10 +1,10 @@
 "use client"
 import React, { useState } from 'react';
 import Heroimg from "../resources/Heroimg.jpg"
-
+import whatsapp from "../resources/whatsapp.svg"
 const Hero = () => {
   return (
-    <div className="flex justify-around pt-10">
+    <div className="flex justify-around pt-10 ">
       <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-center">
         <img
           className="h-auto max-h-120 lg:w-1/2 lg:h-auto lg:max-h-full "
@@ -12,23 +12,27 @@ const Hero = () => {
           alt=""
         />
 
-        <div className="lg:ml-8 animate-slide-right">
-        <h1 className="text-4xl font-bold text-white tracking-widest mt-4 italic lg:text-5xl">
-          <span className="bg-gradient-to-l from-red-900 to-white  bg-clip-text text-transparent animate-shine animate-pulse" >
-            Yos Fitness
+        <div className="lg:ml-2 animate-slide-right">
+        <h1 className="text-4xl font-extrabold text-white tracking-wider mt-4  lg:text-5xl">
+          <span className="bg-white  bg-clip-text text-transparent animate-shine animate-pulse text-center" >
+            FITNESS IS FUN
           </span>
         </h1>
 
 
 
-          <p className="text-lg text-left mt-3 italic text-red-500 tracking-wide">
-            "Nothing is Fun Unless you do"
+          <p className="text-lg text-left mt-3  text-red-500 tracking-wide">
+          Unlock your true potential at Yos Fitness Studio, where strength meets determination.
           </p>
-          <a href="https://forms.gle/2h9UW2D7gtan8EWo8" target="_blank" rel="noopener noreferrer">
-            <button className="bg-red-600 text-white px-4 py-2 mt-3 rounded-none md:hidden">
-              Contact us
+          <a href="https://wa.me/919840690418" target="_blank" rel="noopener noreferrer">
+            <button className="  bg-green-700 text-white   px-4 py-2 mt-3 rounded-lg flex  items-center">
+              
+               WhatsApp Us
+              <img src={whatsapp.src} alt="WhatsApp" className="w-4 h-4 ml-2" />
             </button>
           </a>
+
+
         </div>
       </div>
     </div>

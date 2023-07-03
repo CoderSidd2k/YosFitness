@@ -10,19 +10,33 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-transparent py-5 fixed top-0 left-0 right-0">
-      <div className="max-w-6xl  mx-auto px-4 flex justify-between items-center ">
+    <nav className="bg-black py-5 fixed top-0 left-0 right-0">
+      <div className="max-w-6xl mx-auto px-4 flex justify-between items-center py-4 ">
         <div className="flex items-center">
           <img src={Logo.src} alt="" className="h-12 w-auto" />
+          <h1 className="md:text-3xl font-extrabold text-white tracking-wider   ml-2">
+            <span className="bg-red-700 bg-clip-text text-transparent animate-shine">
+              YOS FITNESS STUDIO
+            </span>
+          </h1>
         </div>
-        <div className="hidden md:flex md:items-center">
-          <a href="/" className="text-white hover:text-gray-200 px-4">Home</a>
-          <a href="#about" className="text-white hover:text-gray-200 px-4">About</a>
-          <a href="#services" className="text-white hover:text-gray-200 px-4">Services</a>
-          <a href="https://forms.gle/2h9UW2D7gtan8EWo8" target="_blank" rel="noopener noreferrer">
-          <button className="bg-red-600 text-white px-4 py-2 rounded-none hover:bg-red-700 transition-colors duration-300">
-            Contact us
-          </button>
+        <div className="hidden md:flex md:items-center space-x-4">
+          <a href="/" className="text-white hover:text-gray-200  ml-3">
+            HOME
+          </a>
+          <a href="#about" className="text-white hover:text-gray-200  ml-3">
+            ABOUT
+          </a>
+          <a href="#services" className="text-white hover:text-gray-200  ml-3">
+            SERVICES
+          </a>
+          <a
+            href="https://forms.gle/2h9UW2D7gtan8EWo8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className='text-white'
+          >
+            CONTACT US
           </a>
         </div>
         <div className="relative md:hidden">
@@ -46,20 +60,23 @@ const Navbar = () => {
             </svg>
           </button>
           {isMenuOpen && (
-            <div className="absolute top-full right-0 bg-white py-2 px-4 shadow-lg w-56">
+            <div className="absolute top-full right-0 bg-white py-2 px-4 shadow-lg w-56 ">
               <a href="/" className="block text-gray-700 hover:text-gray-900 py-2">
-                Home
+                HOME
               </a>
               <a href="#about" className="block text-gray-700 hover:text-gray-900 py-2">
-                About
+                ABOUT
               </a>
               <a href="#services" className="block text-gray-700 hover:text-gray-900 py-2">
-                Services
+                SERVICES
               </a>
-              <a href="https://forms.gle/2h9UW2D7gtan8EWo8" target="_blank" rel="noopener noreferrer">
-              <button className="bg-red-600 text-white px-4 py-2 rounded-none hover:bg-red-700 transition-colors duration-300">
-                Contact us
-              </button>
+              <a
+                href="https://forms.gle/2h9UW2D7gtan8EWo8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className='text-black'
+              >
+                CONTACT US
               </a>
             </div>
           )}
@@ -70,6 +87,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-
