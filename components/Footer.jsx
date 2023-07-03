@@ -14,8 +14,7 @@ const Footer = () => {
           <a className="mx-4" href="https://www.instagram.com/yosfitnessstudio/?hl=en">Instagram</a>
           <span className="text-white opacity-50">|</span>
           <a className="mx-4" href="https://wa.me/919840690418">WhatsApp </a>
-          <span className="text-white opacity-50">|</span>
-          <a className="ml-1" href="/">Website</a>
+          
         </div>
         <div className="flex justify-center items-center">
           
